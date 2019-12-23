@@ -1,0 +1,84 @@
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: turquoise;
+}
+
+header {
+	display: block;
+	position: relative;
+	height: 45px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	background-color: #1a1a1a;
+	color: #f5f5f5;
+	font-size: 20px;
+	flex: 0 0 auto;
+}
+
+header section {
+	width: auto;
+}
+
+header a img {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 35px;
+	width: 300px;
+	/*width: auto;*/
+}
+
+footer {
+	display: block;
+	position: relative;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #4d4d4d;
+	color: #d9d9d9;
+	font-size: 14px;
+	flex: 0 0 auto;
+}
+
+footer section {
+	width: auto;
+}
+
+main {
+	display: block;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	flex: 1 0 auto;
+	opacity: 0.8;
+}
+
+main section {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	background-color: white;
+	opacity: 0.8;
+}
+
+section a{
+	width: auto;
+}
+
+.right {
+	float: right;
+}
