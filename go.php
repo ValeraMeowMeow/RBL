@@ -12,18 +12,21 @@
 	<body>
 		<?php include "header.php"; ?>
 		<!--Главная изменяемая часть-->
-		<main>
-			<section>
-				<h1>Логин</h1>
-			</section>
-			<section>
-				<h1>Пароль</h1>
-			</section>
-			<section>
-				<p>Что-то подзабыл</p>
+		<div class="fon">
+		<main class="rama">
+			<div class="blg1">
+				<div class="go1">
+      				<h3>Логин</h3>
+      				<input class="go2" type="text" placeholder="Введите логин" name="uname" required>
+					<h3>Пароль</h3>
+      				<input class="go2" type="password" placeholder="Введите пароль" name="psw" required>
+        			<h3><button style="border: none;" class="go2" type="submit">Войти</button></h3>
+      				<h3><input type="checkbox" checked="checked" name="remember"> Запомнить меня</h3>
+    			</div>
 				<a href="reg.php" title="Регистрация">Регистрация</a>
-			</section>
+			</div>
 		</main>
+		</div>
 		<?php include "footer.php"; ?>
 	</body>
 </html>

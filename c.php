@@ -24,26 +24,22 @@
 			<div class="ramap">
 			<div id="Предмет" class="tabcontent">
   				<h3>Предмет</h3>
-  				<p class="bl">Огородное знание</p>
+  				<p class="bl">Компьютер</p>
 			</div>
 			<div id="Преподаватель" class="tabcontent">
   				<h3>Преподаватель</h3>
-  				<p class="bl">Копатыч</p> 
+  				<p class="bl">Пин</p> 
 			</div>
 			<div id="Вебинары" class="tabcontent">
   				<h3>Вебинары</h3>
-  				<button class="accordion">Глава 1. Кукуруза</button>
+  				<button class="accordion">Глава 1. Мышка</button>
 				<div class="panel">
-  					<p>Кукуру́за са́харная, также маи́с (лат. Zéa máys[2]) — однолетнее травянистое культурное растение[3], единственный культурный представитель рода Кукуруза (Zea) семейства Злаки (Poaceae). Помимо культурной кукурузы, род Кукуруза включает четыре вида — Zea diploperennis, Zea perennis, Zea luxurians, Zea nicaraguensis — и три дикорастущих подвида Zea mays: ssp. parviglumis, ssp. mexicana и ssp. huehuetenangensis. Считается, что многие из названных таксонов играли роль в селекции культурной кукурузы в древней Мексике. Существует предположение, что кукуруза — самое древнее хлебное растение в мире.</p>
+  					<p>Компью́терная мышь — координатное устройство для управления курсором и отдачи различных команд компьютеру. Управление курсором осуществляется путём перемещения мыши по поверхности стола или коврика для мыши. Клавиши и колёсико мыши вызывают определённые действия, например: активация указанного объекта, вызов контекстного меню, вертикальная и горизонтальная (в специализированных мышках) прокрутка веб-страниц, окон операционной системы и электронных документов.</p>
 				</div>
-  				<button class="accordion">Глава 2. Томат или Помидор</button>
+  				<button class="accordion">Глава 2. Клавиатура</button>
 				<div class="panel">
-  					<p>Тома́т или помидóр (лат. Solánum lycopérsicum) — однолетнее или многолетнее травянистое растение, вид рода Паслён (Solanum)[2] семейства Паслёновые (Solanaceae). Возделывается как овощная культура.</p>
+  					<p>Компью́терная клавиату́ра — устройство, позволяющее пользователю вводить информацию в компьютер (устройство ввода). Представляет собой набор клавиш (кнопок), расположенных в определённом порядке.</p>
   					<iframe width="560" height="315" src="https://www.youtube.com/embed/bpqLp-puLeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-  				<button class="accordion">Глава 3. Огурец</button>
-				<div class="panel">
-  					<p>Огуре́ц обыкнове́нный, или Огурец посевно́й (лат. Cucumis sativus), — однолетнее травянистое растение, вид рода Огурец (Cucumis) семейства Тыквенные (Cucurbitaceae), овощная культура.</p>
 				</div>
   				<script>
 					var acc = document.getElementsByClassName("accordion");
@@ -67,9 +63,9 @@
 			<div id="Литература" class="tabcontent">
   				<h3>Литература</h3>
   				<ul class="bl">
-  					<li><a href="https://www.labirint.ru/books/428483/"></a>Большая книга об овощах</li>
-  					<li><a href="https://www.pomidorko.ru/"></a>Помидорки</li>
-  					<li><a href="https://snob.ru/profile/7574/blog/101270"></a>Мир глазами овоща</li>
+  					<li><a href="https://www.citilink.ru/catalog/computers_and_notebooks/computers/"></a>Компьютер</li>
+  					<li><a href="https://www.dns-shop.ru/catalog/17a8a69116404e77/myshi/"></a>Мышь</li>
+  					<li><a href="https://www.dns-shop.ru/catalog/17a8950d16404e77/klaviatury/"></a>Клавиатура</li>
   				</ul>
 			</div>
 		<script>

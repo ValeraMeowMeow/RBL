@@ -12,18 +12,37 @@
 	<body>
 		<?php include "header.php"; ?>
 		<!--Главная изменяемая часть-->
-		<main>
-			<section>
-				<h3>Логин</h3>
-				<h3>Пароль</h3>
-				<h3>Фамилия</h3>
-				<h3>Имя</h3>
-				<h3>Отчество (при наличии)</h3>
-				<h3>Дата рождения</h3>
-				<h3>Факультет</h3>
-				<h3>Курс</h3>
-				<h3>Учебная группа</h3>
-			</section>
+		<main class="rama">
+		<div class="fon">
+			<div class="blg1">
+				<div class="go1">
+      				<h3>Фамилия</h3>
+      				<input class="go2" type="text" placeholder="Введите Фамилию" name="sname" required>
+      				<h3>Имя</h3>
+      				<input class="go2" type="text" placeholder="Введите имя" name="uname" required>
+      				<h3>Отчество (при наличии)</h3>
+      				<input class="go2" type="text" placeholder="Введите отчество" name="sname" required>
+      				<h3>Дата рождения</h3>
+      				<input class="go2" type="date" name="date" required>
+      				<h3>Электронная почта</h3>
+      				<input class="go2" type="text" placeholder="Введите электронную почту" name="mail" required>
+      				<h3>Пол</h3>
+      				М<input type="checkbox" name="men">
+					Ж<input type="checkbox" name="wu">
+      				<h3>Логин</h3>
+      				<input class="go2" type="text" placeholder="Введите логин" name="login" required>
+      				<h3>Пароль</h3>
+      				<input class="go2" type="password" placeholder="Введите пароль" name="psw" required>
+      				<h3>Повтор пароля</h3>
+      				<input class="go2" type="password" placeholder="Введите пароль" name="psw2" required>
+					<h3>Ваш Факультет</h3>
+      				<input class="go2" type="text" placeholder="Введите пароль" name="fac" required>
+      				<h3>№ учебной группы</h3>
+      				<input class="go2" type="text" placeholder="Введитеномер группы" name="n" required>
+        			<h3><button class="go2" type="submit">Зарегистрироваться</button></h3>
+    			</div>
+			</div>
+		</div>
 		</main>
 		<?php include "footer.php"; ?>
 	</body>

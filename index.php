@@ -13,33 +13,34 @@
 		<?php include "header.php"; ?>
 		<!--Главная изменяемая часть-->
 		<main>
-			<!--Новости-->
-			<section>
-				<h1>Новость 1</h1>
-				<p>По подсчётам с помощью сложных математических вычислений нашей команде удалось установить, что скоро нас отчислят</p>
-			</section>
-			<!--Обновления--> 
-			<section>
-				<h1>Обновление 1</h1>
-				<p>Сайт создан</p>
-			</section>
-			<section>
-				<h1>Обновление 2</h1>
-				<p>Есть менюшка и подвал</p>
-			</section>
-			<section>
-				<h1>Обновление 3</h1>
-				<p>Сказали, что пофиг на стили, команда негодует</p>
-			</section>
-			<section>
-				<h1>Обновление 4</h1>
-				<p>Сат продолжает обновляться (минус стили)</p>
-			</section>
-			<!--<section>
-				<h1>Обновление </h1>
-				<p></p>
-			</section>-->
+			<div class="bgimg-1">
+				<div class="caption">
+					<p><span class="border">RBL | Ready Be Learn</span></p>
+					<p><span class="border">Дистанционное обучение</span></p>
+				</div>
+			</div>
+			<div class="blg1">
+				<h3>Новости</h3>
+				<p>Долгожданое Beta-тестирование и открытие нашего сервиса RBL | Ready Be Learn для дистанционного обучения</p>
+			</div>
+			<div class="bgimg-2">
+				<div class="caption">
+					<span class="border2">Хочешь подтянуть свои знания?</span>
+					<span class="border2">Мы поможем тебе с этим</span>
+				</div>
+			</div>
+			<div class="blg2">
+				<h3>Обновляния</h3>
+				<p>На наш серсис были добавлены новости о нашей команде разработчиков и информация, как связаться с нами и где мы находимся</p>
+			</div>
+			<div class="bgimg-1">
+				<div class="caption">
+					<a href="reg.php">
+						<span class="border">Зарегистрироваться</span>
+					</a>
+				</div>
+			</div>
+			<?php include "footer.php"; ?>
 		</main>
-		<?php include "footer.php"; ?>
 	</body>
 </html>

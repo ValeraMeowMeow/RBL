@@ -12,17 +12,28 @@
 	<body>
 		<?php include "header.php"; ?>
 		<!--Главная изменяемая часть-->
-		<main>
-			<section>
-				<h1>Место обитания этих студентов</h1>
-				<p>Вот тут мы живём, представьте, что тут карта</p>
-			</section>
-			<section>
-				<h1>А вот и связь с нами</h1>
-				<p>А вот наш телефон</p>
+		<div class="rama">
+		<main class="fon">
+			<div class="blg1">
+			<div class="ctc">
+				<h3>Контактные телефоны</h3>
+				<h3>Рабочий телефон</h3>
 				<p>8-800-555-35-35</p>
-			</section>
+				<h3>Дополнительный телефон</h3>
+				<p>8-999-999-99-99</p>
+			</div>
+			</div>
+			<div class="rama">
+			<div class="blg2">
+			<div class="ctc">
+				<h3>Адрес</h3>
+				<p>г. Москва, ул. Б.Семёновская,38</p>
+				<p><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9cad0fe44f2333ea76ef8ec472af8fe521c5f0c4cc6a2d3311bdcc06ba6133c2&amp;width=765&amp;height=271&amp;lang=ru_RU&amp;scroll=true"></script></p>
+			</div>
+			</div>
+			</div>
 		</main>
+		</div>
 		<?php include "footer.php"; ?>
 	</body>
 </html>
